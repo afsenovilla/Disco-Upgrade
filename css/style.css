@@ -36,7 +36,7 @@ header{
 .logo i{
     color: var(--main-color);
     font-size: 28px;
-    margin-right: 3px;
+    margin-right: 6px;
 }
 .logo span{
     color: var(--text-color);
@@ -72,11 +72,11 @@ header{
     font-weight: 500;
     transition: all .50s ease;
 }
-.user{
+.icons{
     display: flex;
     align-items: center;
 }
-.user i{
+.icons i{
     color: var(--main-color);
     font-size: 28px;
     margin-right: 7px;
@@ -112,7 +112,7 @@ header{
         top: 100%;
         right: -100%;
         width: 270px;
-        height: 23vh;
+        height: 42vh;
         background-color: var(--main-color);
         display: flex;
         flex-direction: column;
